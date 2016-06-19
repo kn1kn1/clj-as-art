@@ -5,11 +5,10 @@
   (:use [quil-layer layer layers]
         [quil-layer.layers fadeout-layer]
         [clj-as-art.layers background-layer lines-layer text equilibrium]
-        [clj-as-art.layers vol-bg-layer]
         )
   (:use [overtone.live]
         [clj-as-art.fn sequencer util ambi-rand prob-beats beats markov-logistics]
-        [clj-as-art.synth fmchord grumbles laserbeam latchbell rlpfsaw])
+        [clj-as-art.synth fmchord laserbeam latchbell rlpfsaw])
   )
 
 ;; 1

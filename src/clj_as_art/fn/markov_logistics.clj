@@ -1,6 +1,6 @@
 (ns clj-as-art.fn.markov-logistics
   (:use [overtone.live]
-        [clj-as-art.synth fmchord grumbles laserbeam latchbell]))
+        [clj-as-art.synth fmchord laserbeam latchbell]))
 
 (def logistics-scale (scale :C2 :minor-pentatonic (range 1 15)))
 (def logistics-r 3.8)

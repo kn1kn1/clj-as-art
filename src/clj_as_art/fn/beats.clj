@@ -1,7 +1,7 @@
 (ns clj-as-art.fn.beats
   (:use [overtone.live]
         [clj-as-art.fn sequencer util ambi-rand prob-beats]
-        [clj-as-art.synth fmchord grumbles laserbeam latchbell]))
+        [clj-as-art.synth fmchord laserbeam latchbell]))
 
 
 (def kick (sample "resources/kick.wav"))
